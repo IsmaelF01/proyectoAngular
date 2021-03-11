@@ -1,0 +1,26 @@
+#entrada {
+    background-color: rgb(168, 174, 192);
+    border-radius: 10px;
+    width: 30%;
+    height: 260px;
+    float: left;
+    margin: 0 0 10px 30px;
+}
+
+#entrada * {
+    padding: 10px;
+}
+
+#entrada h3 {
+    text-align: center;
+    border-bottom: 2px dotted red;
+    text-transform: uppercase;
+}
+
+#entrada span {
+    color: red;
+}
+
+#entrada p:first-letter {
+    text-transform: uppercase;
+}

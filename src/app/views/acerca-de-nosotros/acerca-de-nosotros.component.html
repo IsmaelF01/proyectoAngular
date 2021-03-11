@@ -1,0 +1,15 @@
+<div id="contenedor">
+    <h2>Acerca de nosotros</h2>
+    <div id="entrada">
+        <h4>Contactenos</h4>
+        <div>
+            <p><span>City:</span> Garrucha</p>
+            <p><span>Calle:</span> Calle Mayor Nº17</p>
+            <p><span>Telefono:</span> 654231278</p>
+        </div>
+        <google-map height="300" [center]="position">
+            <map-marker [position]="position" [label]="label" [title]="title">
+            </map-marker>
+        </google-map>
+    </div>
+</div>
